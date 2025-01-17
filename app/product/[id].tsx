@@ -7,6 +7,7 @@ import { Box } from '@/components/ui/box';
 import { Button, ButtonText } from '@/components/ui/button';
 import { useLocalSearchParams } from 'expo-router';
 import products from '@/assets/products.json';
+import { Stack } from 'expo-router';
 
 export default function ProductDetailsScreen() {
     const { id } = useLocalSearchParams<{ id: string }>();
@@ -17,13 +18,15 @@ export default function ProductDetailsScreen() {
         return <Text>Product not found</Text>;
     }
 
-    return (<Card className="p-5 rounded-lg max-w-[560px] flex-1"> 
-
+    return (
+    <Box className="bg-grey-100 flex-1 items-center p-3">
+      <Stack.Screen options={{ title: product.name}} />
+    <Card className="p-5 rounded-lg mx-auto max-w-[960px] w-full flex-1"> 
         <Image
           source={{
             uri: product.image,
           }}
-          className="mb-6 h-[240px] w-full rounded-md aspect-[4/3]"
+          className="mb-6 h-[240px] w-full rounded-md "
           alt={`${product.name} image`}
           resizeMode="contain"
         />
@@ -51,6 +54,8 @@ export default function ProductDetailsScreen() {
             </ButtonText>
           </Button>
         </Box>
-      </Card>)
+      </Card>
+      </Box>
+      );
 
 }
