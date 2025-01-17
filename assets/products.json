@@ -1,72 +1,72 @@
 [
-    {
+  {
       "id": 1,
-      "name": "AirPods Pro",
-      "description": "Apple's wireless noise-cancelling earbuds with adaptive transparency and spatial audio.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/airpodspro.jpg",
-      "price": 249.99
-    },
-    {
+      "name": "Slogan Oversize Tee - Unisex",
+      "description": "The Slogan Oversize Tee is a 60% cotton, 40% polyester, 230 GSM oversized shirt, designed for both active and lifestyle wear, with a true-to-size fit or a recommended size down for a regular fit.",
+      "image": "https://incarnage.com/cdn/shop/files/DSC09298_39475b3f-0af4-49f1-82eb-06f8d1e77818_2000x.jpg?v=1720329170",
+      "price": 3850
+  },
+  {
       "id": 2,
-      "name": "Apple Watch Series 9",
-      "description": "Latest smartwatch from Apple featuring always-on retina display and advanced health monitoring.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/applewatch.jpg",
-      "price": 399.99
-    },
-    {
+      "name": "Urban Stripe Tee",
+      "description": "The Urban Stripe Tee is a regular-fit, 55% cotton, 45% polyester French terry shirt with contrast stripes, offering a comfortable, sporty look ideal for casual wear, with a 240 GSM fabric for durability and ease of movement.",
+      "image": "https://incarnage.com/cdn/shop/files/IMG_6607_2000x.jpg?v=1728477630",
+      "price": 3850
+  },
+  {
       "id": 3,
-      "name": "Bose Noise Cancelling Headphones",
-      "description": "Premium noise-cancelling over-ear headphones with 20 hours of battery life and voice assistant integration.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/boseheadphones.jpg",
-      "price": 349.99
-    },
-    {
+      "name": "ALL BLACK HYBRID DUFFEL",
+      "description": "The Hybrid Duffle Bag is a versatile 2-in-1 backpack and duffel bag with 6 compartments, including a shoe compartment and an inner section for valuables, featuring durable zippers and a sleek black design with a black logo.",
+      "image": "https://incarnage.com/cdn/shop/files/WhatsAppImage2023-08-27at2.04.32PM_10_623c4c0c-3cf3-404a-8bdb-0d66213548c1_2000x.jpg?v=1734108138",
+      "price": 11500
+  },
+  {
       "id": 4,
-      "name": "Dyson V15 Vacuum",
-      "description": "Powerful cordless vacuum with laser-detect technology and advanced filtration system.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/dysonvacuum.jpg",
-      "price": 699.99
-    },
-    {
+      "name": "Essential Cut off Crop",
+      "description": "The Essential Cut Off Crop is a versatile, loose-fit 100% cotton top perfect for lifestyle or training wear, offering comfort and adaptability for daily activities.",
+      "image": "https://incarnage.com/cdn/shop/files/DSC08820_2000x.jpg?v=1709709286",
+      "price": 2600
+  },
+  {
       "id": 5,
-      "name": "Samsung Galaxy S24 Ultra",
-      "description": "Flagship smartphone with 200MP camera, 120Hz AMOLED display, and S Pen support.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/galaxys24ultra.jpg",
-      "price": 1199.99
-    },
-    {
+      "name": "Premium Cargo Pants",
+      "description": "The Premium Cargo Pants offer a relaxed fit with a tapered leg, six functional pockets, and a drawstring waistband, crafted from durable, high-quality fabric for both comfort and style, ideal for lifestyle and travel.",
+      "image": "https://incarnage.com/cdn/shop/files/A7409724_63d25d02-da78-4b31-8c86-1b5d650a4e43_2000x.jpg?v=1725046431",
+      "price": 13500
+  },
+  {
       "id": 6,
-      "name": "iPad Pro",
-      "description": "12.9-inch iPad Pro with M2 chip, Liquid Retina XDR display, and 5G connectivity.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/ipad.jpg",
-      "price": 1099.99
-    },
-    {
+      "name": "Gift Box - For Her",
+      "description": "The 'Gift Box - For Her' is a curated collection of Carnage's finest activewear and essentials, including a Hydro Tumbler, Essential Everyday Tee, Classic Seamless Legging, and Visor Hat, all designed to enhance her fitness and style.",
+      "image": "https://incarnage.com/cdn/shop/files/IMG_3038_2000x.jpg?v=1734323994",
+      "price": 23450
+  },
+  {
       "id": 7,
-      "name": "iPhone 16 Pro",
-      "description": "Apple's latest iPhone with A18 Bionic chip, ProMotion display, and advanced triple-lens camera system.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/iphone16pro.jpg",
-      "price": 1299.99
-    },
-    {
+      "name": "Performance Polo",
+      "description": "The Performance Polo is a tapered, stretch-active dry fit shirt designed for athletes, offering a lightweight, comfortable fit with an athletic aesthetic, and is recommended to be worn true to size or one size up for a more relaxed fit.",
+      "image": "https://incarnage.com/cdn/shop/files/DSC05513_2000x.jpg?v=1716568238",
+      "price": 3350
+  },
+  {
       "id": 8,
-      "name": "MacBook Pro 16-inch",
-      "description": "High-performance laptop with M2 Max chip, Liquid Retina XDR display, and 1TB SSD.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/macbookpro.jpg",
-      "price": 2499.99
-    },
-    {
+      "name": "Classic Zip Up Hoodie - Unisex",
+      "description": "The Classic Zip-up Hoodie is a cozy, regular-fit fleece hoodie made from 80% cotton and 20% polyester, featuring a minimalist logo, adjustable drawstrings, and spacious pockets, perfect for casual wear and cooler weather.",
+      "image": "https://incarnage.com/cdn/shop/files/IMG_6573_2000x.jpg?v=1728387752",
+      "price": 4950
+  },
+  {
       "id": 9,
-      "name": "Nike Air Max 270",
-      "description": "Popular running shoes with Nike Air cushioning and breathable mesh upper.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/nikeairmax.jpg",
-      "price": 149.99
-    },
-    {
+      "name": "Classic Hydrator Jug - 1 Ltr",
+      "description": "The Classic Hydrator Jug - 1 Ltr in black is a durable stainless-steel water jug with a built-in straw, 1-liter capacity, a sleek matte finish, and a large handle for easy carrying.",
+      "image": "https://incarnage.com/cdn/shop/files/WhatsAppImage2024-03-06at5.26.42PM_6_2000x.jpg?v=1709726704",
+      "price": 6500
+  },
+  {
       "id": 10,
-      "name": "PlayStation 5",
-      "description": "Sony's latest gaming console with 8K output, lightning-fast load times, and 825GB SSD.",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/ecom/playstation5.jpg",
-      "price": 499.99
-    }
-  ]
+      "name": "Urban Short Sleeve Shirt",
+      "description": "The Urban Short Sleeve Shirt is a tailored-fit, lightweight, breathable button-down shirt with a subtle texture, designed for versatile wear in both casual and polished settings.",
+      "image": "https://incarnage.com/cdn/shop/files/Shirts_Cat_0000_DSC03830_0032_Shirts_Cat_0010_DSC03799_2000x.jpg?v=1725063738",
+      "price": 5950
+  }
+]

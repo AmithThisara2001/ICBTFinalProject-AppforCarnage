@@ -8,15 +8,22 @@ import { Button, ButtonText } from '@/components/ui/button';
 import { useLocalSearchParams } from 'expo-router';
 import products from '@/assets/products.json';
 import { Stack } from 'expo-router';
+import { useCart } from '@/store/cartStore';
 
 export default function ProductDetailsScreen() {
     const { id } = useLocalSearchParams<{ id: string }>();
+
+    const addProduct = useCart((state) => state.addProduct);
 
     const product = products.find((p) => p.id === Number(id));
 
     if (!product) {
         return <Text>Product not found</Text>;
     }
+
+    const handleAddToCart = () => {
+      addProduct(product);
+    };
 
     return (
     <Box className="bg-grey-100 flex-1 items-center p-3">
@@ -42,7 +49,7 @@ export default function ProductDetailsScreen() {
           </Text>
         </VStack>
         <Box className="flex-col sm:flex-row">
-          <Button className="px-4 py-2 mr-0 mb-3 sm:mr-3 sm:mb-0 sm:flex-1">
+          <Button className="px-4 py-2 mr-0 mb-3 sm:mr-3 sm:mb-0 sm:flex-1" onPress={handleAddToCart}>
             <ButtonText size="sm">Add to cart</ButtonText>
           </Button>
           <Button

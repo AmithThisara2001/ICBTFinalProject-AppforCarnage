@@ -2,12 +2,13 @@ import { FlatList,useWindowDimensions } from "react-native";
 import products from "../assets/products.json";
 import ProductListItem from "../components/ProductListItem";
 import { useBreakpointValue } from '@/components/ui/utils/use-break-point-value';
+import { useEffect,useState } from "react";
+import { listProducts } from "@/api/products";
 
 
 export default function HomeScreen() {
 
-  //const { width } = useWindowDimensions();
-  //const numColumns = width > 700 ? 3 : 2;
+
 
   const numColumns = useBreakpointValue({
     default: 2,
