@@ -11,7 +11,7 @@ export default function Rootlayout() {
       <Stack screenOptions={{ 
         headerRight: () => (
           <View style={styles.headerIconsContainer}>
-            <Link href={'/cart'} asChild>
+            <Link href={'/Cart'} asChild>
               <Pressable>
                 <Icon as={ShoppingCart} />
               </Pressable>
